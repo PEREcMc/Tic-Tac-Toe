@@ -72,8 +72,12 @@
   body {
     width: 100vw;
     height: 100vh;
-    padding: 70px 0px 70px 0px;
-    background-color: cornflowerblue;
+    padding: 110px 0px 70px 0px;
+
+    background: rgb(77,114,240);
+    background: linear-gradient(10deg, rgba(77,114,240,1) 3%, rgba(78,127,233,0.9654236694677871) 93%);
+    /* background-color: cornflowerblue; */
+
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500; 
@@ -84,7 +88,7 @@
     text-align: center;
     font-size: 50px;
     margin-bottom: 30px;
-    color: #dfa04f;
+    color: #fbb922;
 }
 .wrapper {
     position: relative;
@@ -102,17 +106,17 @@
     justify-content: center;
     align-items: center;
 
-    width: 77px;
-    height: 77px;
+    width: 90px;
+    height: 90px;
     background-color: burlywood;
     border-radius: 3px;
     border: 1px solid #061d5a;
 
     color: crimson;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 .cell:hover {
     cursor: pointer;
@@ -129,14 +133,14 @@
 
 .again {
     position: absolute;
-    bottom: 173px;
+    bottom: 187px;
     background-color: #e0d5c6;
     border: 1px solid #643a04;
     border-radius: 10px;
     color: crimson;
-    padding: 10px 25px;
+    padding: 15px 25px;
 
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .again:hover {
@@ -153,6 +157,6 @@
     position: static;
   }
   .again {
-    bottom: 53.5%;
+    bottom: 43.5%;
   }
 }
