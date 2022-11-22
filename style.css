@@ -120,10 +120,10 @@
     border: 1px solid #643a04;
 }
 .end {
-    color: crimson;
+    color: #f70000;
     font-size: 50px;
     text-align: center;
-    text-shadow: 3px 3px 3px rgb(116, 85, 6);
+    text-shadow: 3px 3px 3px rgb(64 47 5);
     margin-top: 20px;
 }
 
@@ -149,7 +149,10 @@
 }
 
 @media (max-width: 440px) {
+  .wrapper {
+    position: static;
+  }
   .again {
-    bottom: 231px;
+    bottom: 53.5%;
   }
 }
